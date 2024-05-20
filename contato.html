@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+<! -- CABEÇALHO DE LINKS -->
+    <header>     
+        <div class="menu_container">
+            <div class="foto_perfil"><img src="img/perfil.png" alt="foto perfil" /></div>
+            <div class="menu">
+                <nav>
+                    <a href="index.html"target= "_self" >Formação</a>
+                    <a href="sobre.html"target= "_self" >Sobre mim</a>
+                    <a href="portfolio.html"target= "_self" >Portfólio</a>
+                    <a href="contato.html"target= "_self" >Contato</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+<! -- CONTEÚDO -->
+    <h1 class="title">Contato</h1>
+    </br>
+    <div class="conteudo_container">
+
+        <input type="text" name="nome" placeholder="Nome"> <br> 
+        <input type="email" name="email" placeholder="E-mail"> <br>
+        <input type="tel" name="tel" placeholder="(xx) x xxxx-xxxx"> <br>
+        <input type="number" name="idade" placeholder="Idade"> <br>
+       Urgencia <input type="range" name="urgencia" min="0" max="100" step="0.1"> <br>
+        <input type="radio" name="horario" value="manha"> Manhã 
+        <input type="radio" name="horario" value="tarde"> Tarde 
+        <input type="radio" name="horario" value="noite"> Noite <br>
+        <textarea name="menssagem" cols="50" rows="10"></textarea> <br>
+       Cidade: <input list="cidade" name="cidade">
+        <datalist id = "cidade"> 
+            <option value="">Selecione a cidade</option>
+                <option value="Aracaju">Aracaju</option>
+                <option value="Belém">Belém</option>
+                <option value="Belo Horizonte">Belo Horizonte</option>
+                <option value="Boa Vista">Boa Vista</option>
+                <option value="Brasília">Brasília</option>
+                <option value="Campo Grande">Campo Grande</option>
+                <option value="Cuiabá">Cuiabá</option>
+                <option value="Curitiba">Curitiba</option>
+                <option value="Florianópolis">Florianópolis</option>
+                <option value="Fortaleza">Fortaleza</option>
+                <option value="Goiânia">Goiânia</option>
+                <option value="João Pessoa">João Pessoa</option>
+                <option value="Macapá">Macapá</option>
+                <option value="Maceió">Maceió</option>
+                <option value="Manaus">Manaus</option>
+                <option value="Natal">Natal</option>
+                <option value="Palmas">Palmas</option>
+                <option value="Porto Alegre">Porto Alegre</option>
+                <option value="Porto Velho">Porto Velho</option>
+                <option value="Recife">Recife</option>
+                <option value="Rio Branco">Rio Branco</option>
+                <option value="Rio de Janeiro">Rio de Janeiro</option>
+                <option value="Salvador">Salvador</option>
+                <option value="São Luís">São Luís</option>
+                <option value="São Paulo">São Paulo</option>
+                <option value="Teresina">Teresina</option>
+                <option value="Vitória">Vitória</option>
+        </datalist> <br>
+        <input type="submit"></input> 
+    </form>
+    </div>    
+</body>
+</html>
+
+
