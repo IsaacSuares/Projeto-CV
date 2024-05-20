@@ -1,0 +1,68 @@
+.foto_perfil img {
+    border-radius: 100%;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+}
+
+.foto_perfil {
+    width: 25%;
+}
+
+.conteudo_container{
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.menu {
+    width: 70%;
+}
+
+.menu nav a {
+    color: white;
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 18px;
+    position: relative;
+}
+
+.menu nav a::after {
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(45deg, blue, rgb(23, 88, 150));
+    position: absolute;
+    top: 30px;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.menu nav a:hover::after {
+    width: 30px;
+}
+
+.menu_container {
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+}
+
+.title{
+    text-align: center;
+    padding-top: 10px;
+}
